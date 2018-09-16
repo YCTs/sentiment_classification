@@ -11,7 +11,7 @@
 
     wget -O Dict_3.npy https://www.dropbox.com/s/8txl5kmr3hyub89/Dict_3.npy?dl=0
 
-這個檔案要確定放在跟 [main.py](./main.py) 同一個路徑底下
+這個檔案要確定放在跟 [main.py](./main.py) 同一個路徑底下
 ## 執行
 
     $ bash run.sh
