@@ -8,7 +8,7 @@ from keras.layers import Flatten
 from keras.layers.recurrent import LSTM
 from keras.utils import to_categorical
 from keras.models import load_model
-
+from util import _function
 def input_from_stdin(input, dict_glove):
 	seq = np.zeros((1, 39, 200))
 
@@ -19,6 +19,10 @@ def input_from_stdin(input, dict_glove):
 	return seq
 
 def main(args):
+    
+
+	print(_function("thank you"))
+	'''
 	d = np.load('Dict_3.npy').item()
 	input = None
 	while(True):
@@ -36,7 +40,7 @@ def main(args):
 		result = result / len(args[1:8])
 
 		print("Score: ", result)
-
+	'''
 
 
 

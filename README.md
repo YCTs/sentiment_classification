@@ -11,19 +11,26 @@
 
     wget -O Dict_3.npy https://www.dropbox.com/s/8txl5kmr3hyub89/Dict_3.npy?dl=0
 
-這個檔案要確定放在跟 [main.py](./main.py) 同一個路徑底下
-## 執行
+這個檔案 Dict_3.npy 要確定放在跟 [util.py](./util.py) 同一個路徑底下，以及確認路徑[model_submission](./model_submission/)和[util.py](./util.py)在同一個路徑下
 
-    $ bash run.sh
+## 使用
 
-## Demo
+```python
+from util import _function
 
-    $ bash run.sh
-    Sentence:
-    >> thank you !
-    Score:  [[0.9891985]]
+```
 
-## 結束程式
+在util.py中
 
-    Sentence:
-    >> exit
+```python
+def _function(sentence):
+```
+*   input: 參數sentence是一個string，代表一句話
+*   return: numpy，一個分數
+
+```python
+
+print(_function("thank you"))
+
+```
+得到 [[0.97889274]]
