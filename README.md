@@ -11,7 +11,7 @@
 
     wget -O Dict_3.npy https://www.dropbox.com/s/8txl5kmr3hyub89/Dict_3.npy?dl=0
 
-這個檔案 Dict_3.npy 要確定放在跟 [util.py](./util.py) 同一個路徑底下，以及確認路徑[model_submission](./model_submission/)和[util.py](./util.py)在同一個路徑下
+這個檔案 Dict_3.npy 要確定放在跟 [util.py](./util.py) 同一個路徑底下，以及確認路徑[model_submission](./model_submission/)和[util.py](./util.py)在同一個路徑下
 
 ## 使用
 
