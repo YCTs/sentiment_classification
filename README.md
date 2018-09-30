@@ -23,7 +23,7 @@ from util import _function
 在util.py中
 
 ```python
-def _function(sentence):
+def _function(sentence):
 ```
 *   input: 參數sentence是一個string，代表一句話
 *   return: numpy，一個分數
